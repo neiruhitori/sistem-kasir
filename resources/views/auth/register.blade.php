@@ -64,11 +64,10 @@
                     </div>
                 </form>
 
-                <div class="social-auth-links text-center">
+                <div class="social-auth-links text-center mb-3">
                     <p>- OR -</p>
-                    <a href="#" class="btn btn-block btn-danger">
-                        <i class="fab fa-google-plus mr-2"></i>
-                        Sign up using Google+
+                    <a href="{{ route('auth.google') }}" class="btn btn-block btn-danger">
+                        <i class="fab fa-google-plus mr-2"></i> Sign in with Google
                     </a>
                 </div>
                 <div class="flex items-center justify-end mt-4">
